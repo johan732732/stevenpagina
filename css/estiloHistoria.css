@@ -1,0 +1,185 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+
+nav
+{
+background-image:url("imagenes/barra1.png");
+
+}
+
+
+#global {
+
+width:842px;
+ margin: 0 auto;
+ padding: 20px;
+ box-shadow: #123 0px 0px 19px;
+ background-color: transparent;
+font-family: arial;
+}
+
+ul, ol {
+list-style: none;}	
+	
+
+
+
+.nav li a {
+
+background-color: transparent;
+color: #D0FA58;
+text-decoration: none;
+padding: 1px 20px;
+display: block;
+}
+
+.nav li a:hover {
+background-color: #F0
+}
+	
+	
+.nav li ul {
+display: none;
+position: absolute;
+min-width: 200px;
+background-image:url("imagenes/SubBarra1.png");
+text-align: center;
+padding: -5px 15px;
+font-family: times new roman;
+}
+
+.nav li:hover > ul {
+display: block;
+font-family: tahoma;
+}
+
+.nav > li {
+display: inline-block;
+}
+
+
+body
+{ 
+  margin: 0 auto;
+  background-image:url("imagenes/fondo.jpg"); 
+  background-attachment: fixed ;
+  font-family: tahoma;
+  
+  
+}
+
+#global
+
+{
+  width:842px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: #123 0px 0px 19px;
+  background-color: transparent;
+  
+    }
+
+	
+nav ul li 
+{
+  display: block;
+  padding: 15px 48px;
+  cursor: pointer;
+  color: #FBFCFC;
+  text-shadow: -1px 0 black, 0 2px black,
+	  1px 0 black, 0 -1px black;
+}
+
+nav ul li a
+{
+color: #D0FA58;
+text-decoration: none;
+padding: 15px 17px;
+text-shadow: -1px 0 black, 0 2px black,
+	  1px 0 black, 0 -1px black;
+transition: all 0.5s linear;
+-moz-transition: all 0.5s linear;
+-o-transition: all 0.5s linear;
+-webkit-transition: all 0.5s linear;
+
+}
+
+nav ul li a:hover
+{
+   box-shadow: #F7FE2E 5px 5px 5px;
+   background-color: #F0
+   text-shadow: -1px 0 black, 0 2px black,
+	  1px 0 black, 0 -1px black;
+   }
+   
+ aside
+  {
+     float: right;
+     margin-right: 20px;
+     margin-bottom: 20px;
+  }
+
+  section
+    {
+  
+  text-align: justyfic;
+  padding: 10px;
+  color: #FFFFFF;
+  text-shadow: -2px 0 black, 0 2px black,
+	  1px 0 black, 0 -1px black;
+  
+  }
+
+  .subtitle
+  {
+  font-size: 22.4px;
+  font-weight: 400;
+  position: static;
+  text-align: left;
+  color: #FFFFFF;
+  text-shadow: -1px 0 black, 0 2px black,
+	  1px 0 black, 0 -1px black;
+  }
+  
+  #TablaProyecto{
+  margin: 50px auto;
+  width: 700px;
+  }
+  
+  table
+{
+	background-color: #fff;
+	border-collapse:collapse;
+	text-align: center;
+	width: 100%;
+	font-family: Times New Roman;
+}
+th, td
+{
+	border : solid 1px black;
+	padding: 10px;
+	
+}
+thead
+{
+	background-color: #2980B9;
+	border-bottom: solid 5px #000000;
+	color: black ;
+	text-align: center;	
+}  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
